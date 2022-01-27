@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/hi5" method="GET" resourcePath="/hi5" id="91f40dc2-bcc2-4ccd-9013-d79f18b59ec5" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="91f40dc2-bcc2-4ccd-9013-d79f18b59ec5fileName">%2Fhi5</con:setting>
+  </con:settings>
+  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchConfig/>
+  <con:dispatchXPath/>
+  <con:routeScript/>
+  <con:response name="success" id="a28f0222-6d43-4ffc-b6b5-99e0a7db5a4c" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource="">
+    <con:settings/>
+    <con:script>props = context.mockService.getPropertyNames()
+for (prop in props)
+{
+log.info(context.mockService.getPropertyValue(prop));
+random_decimal = Math.ceil((Math.random()*100))
+context.mockService.setPropertyValue(prop, String.valueOf((random_decimal)))
+}</con:script>
+    <con:responseContent>{
+	"Random Value":"${#MockService#response_variable}"
+}</con:responseContent>
+  </con:response>
+</con:restMockAction>

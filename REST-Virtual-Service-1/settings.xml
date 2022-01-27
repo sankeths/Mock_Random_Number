@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockService id="df7e8f79-f45d-4524-b091-af274adc3de9" port="8088" path="/" host="localhost" name="REST Virtual Service 1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="df7e8f79-f45d-4524-b091-af274adc3de9fileName">REST-Virtual-Service-1</con:setting>
+  </con:settings>
+  <con:properties>
+    <con:property>
+      <con:name>response_variable</con:name>
+      <con:value>54.0</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Hello</con:name>
+      <con:value>26.0</con:value>
+    </con:property>
+  </con:properties>
+  <con:constraints>
+    <con:congestion>0</con:congestion>
+    <con:inputBandwidth>-1</con:inputBandwidth>
+    <con:outputBandwidth>-1</con:outputBandwidth>
+    <con:maxThreadPoolCapacity>20</con:maxThreadPoolCapacity>
+    <con:coreThreadPoolCapacity>5</con:coreThreadPoolCapacity>
+    <con:virtError>
+      <con:start>0</con:start>
+      <con:endless>true</con:endless>
+    </con:virtError>
+  </con:constraints>
+  <con:headerValidator type="NONE"/>
+</con:restMockService>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Hi5" path="/hi5" id="4d503c4b-4736-40b8-b830-2dd93326c033" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="4d503c4b-4736-40b8-b830-2dd93326c033fileName">Hi5</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Hi5" id="cd567288-78e7-427b-a18a-e0aea52bf9ff" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="ccc48c94-9328-435b-91da-b230eb427539" mediaType="application/json">
+      <con:settings/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
